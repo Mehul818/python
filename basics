@@ -1,0 +1,20 @@
+for x in range(1,101):
+    if x%3==0 and x%5==0:
+        print('FizzBuzz {}', x)
+    elif x%3==0:
+        print('fizz')
+    elif x%5==0:
+        print("Buzz ")
+    else: print(x)
+    
+  ------------------------------------------------------------------------------------  
+    
+    st= 'print every word in this sentence that contains even number of letters'
+st1= st.split()
+for x in st1:
+     if len(x)%2==0:
+            print('even',x)
+     else: print(x)
+    
+------------------------------------------------------------------------------------------
+
